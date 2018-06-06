@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:showIn="@layout/activity_register">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:alpha="0.72"
+        android:background="#fff"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Username(include atleast 1 special character)"
+        android:inputType="textNoSuggestions"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="19dp"
+        android:textStyle="normal|italic"
+        />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:alpha="0.72"
+        android:background="#fff"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter your ID(9 digits)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="19dp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:alpha="0.72"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="19dp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/confirmPw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp"
+        android:alpha="0.72"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="19dp"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:id="@+id/register"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="#70ff0000"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/done1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:background="#70ff0000"
+
+        android:text="Done"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+
